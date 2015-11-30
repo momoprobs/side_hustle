@@ -9,14 +9,14 @@
 import Foundation
 import MultipeerConnectivity
 
-protocol ServiceManagerDelegate {
+@objc protocol ServiceManagerDelegate {
     
     func connectedDevicesChanged(manager : ServiceManager, connectedDevices: [String])
     func profileChanged(manager : ServiceManager, contentString: String)
     
 }
 
-class ServiceManager : NSObject {
+@objc class ServiceManager : NSObject {
     
     private let ServiceType = "example-service"
     private let myPeerId = MCPeerID(displayName: UIDevice.currentDevice().name)

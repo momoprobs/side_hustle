@@ -14,9 +14,12 @@
 		95882A7E1C069F43002BD9DE /* SideHustleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95882A7D1C069F43002BD9DE /* SideHustleTests.swift */; };
 		95882A891C069F43002BD9DE /* SideHustleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95882A881C069F43002BD9DE /* SideHustleUITests.swift */; };
 		95882A971C06A56A002BD9DE /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95882A961C06A56A002BD9DE /* ServiceManager.swift */; };
-		95882A991C06AD14002BD9DE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95882A981C06AD14002BD9DE /* ProfileViewController.swift */; };
-		95882A9B1C06EE79002BD9DE /* profile.gif in Resources */ = {isa = PBXBuildFile; fileRef = 95882A9A1C06EE79002BD9DE /* profile.gif */; };
-		95882A9D1C0844DE002BD9DE /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95882A9C1C0844DE002BD9DE /* BrowserViewController.swift */; };
+		B131731D1C0BCB6300C56DB4 /* images in Resources */ = {isa = PBXBuildFile; fileRef = B131731C1C0BCB6300C56DB4 /* images */; };
+		B131731F1C0BCBAE00C56DB4 /* profile.gif in Resources */ = {isa = PBXBuildFile; fileRef = B131731E1C0BCBAE00C56DB4 /* profile.gif */; };
+		B131732C1C0BD07A00C56DB4 /* ProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B131732B1C0BD07A00C56DB4 /* ProfileVC.m */; };
+		B131732F1C0BD09300C56DB4 /* BrowserVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B131732E1C0BD09300C56DB4 /* BrowserVC.m */; };
+		B13173311C0BD2DD00C56DB4 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = B13173301C0BD2DD00C56DB4 /* fonts */; };
+		B13173341C0BDE1800C56DB4 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B13173331C0BDE1800C56DB4 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +53,16 @@
 		95882A881C069F43002BD9DE /* SideHustleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideHustleUITests.swift; sourceTree = "<group>"; };
 		95882A8A1C069F43002BD9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95882A961C06A56A002BD9DE /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
-		95882A981C06AD14002BD9DE /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		95882A9A1C06EE79002BD9DE /* profile.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = profile.gif; path = ../../../profile.gif; sourceTree = "<group>"; };
-		95882A9C1C0844DE002BD9DE /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
+		B131731C1C0BCB6300C56DB4 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		B131731E1C0BCBAE00C56DB4 /* profile.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = profile.gif; path = ../images/profile.gif; sourceTree = "<group>"; };
+		B13173201C0BCF1300C56DB4 /* SideHustle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SideHustle-Bridging-Header.h"; sourceTree = "<group>"; };
+		B131732A1C0BD07A00C56DB4 /* ProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileVC.h; sourceTree = "<group>"; };
+		B131732B1C0BD07A00C56DB4 /* ProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileVC.m; sourceTree = "<group>"; };
+		B131732D1C0BD09300C56DB4 /* BrowserVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserVC.h; sourceTree = "<group>"; };
+		B131732E1C0BD09300C56DB4 /* BrowserVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserVC.m; sourceTree = "<group>"; };
+		B13173301C0BD2DD00C56DB4 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		B13173321C0BDE1800C56DB4 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		B13173331C0BDE1800C56DB4 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +97,8 @@
 				95882A7C1C069F43002BD9DE /* SideHustleTests */,
 				95882A871C069F43002BD9DE /* SideHustleUITests */,
 				95882A661C069F43002BD9DE /* Products */,
+				B13173301C0BD2DD00C56DB4 /* fonts */,
+				B131731C1C0BCB6300C56DB4 /* images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,15 +115,20 @@
 		95882A671C069F43002BD9DE /* SideHustle */ = {
 			isa = PBXGroup;
 			children = (
-				95882A9A1C06EE79002BD9DE /* profile.gif */,
+				B131732D1C0BD09300C56DB4 /* BrowserVC.h */,
+				B131732E1C0BD09300C56DB4 /* BrowserVC.m */,
+				B131731E1C0BCBAE00C56DB4 /* profile.gif */,
 				95882A681C069F43002BD9DE /* AppDelegate.swift */,
 				95882A961C06A56A002BD9DE /* ServiceManager.swift */,
-				95882A981C06AD14002BD9DE /* ProfileViewController.swift */,
 				95882A6C1C069F43002BD9DE /* Main.storyboard */,
-				95882A9C1C0844DE002BD9DE /* BrowserViewController.swift */,
+				B13173321C0BDE1800C56DB4 /* User.h */,
+				B13173331C0BDE1800C56DB4 /* User.m */,
 				95882A6F1C069F43002BD9DE /* Assets.xcassets */,
 				95882A711C069F43002BD9DE /* LaunchScreen.storyboard */,
 				95882A741C069F43002BD9DE /* Info.plist */,
+				B13173201C0BCF1300C56DB4 /* SideHustle-Bridging-Header.h */,
+				B131732A1C0BD07A00C56DB4 /* ProfileVC.h */,
+				B131732B1C0BD07A00C56DB4 /* ProfileVC.m */,
 			);
 			path = SideHustle;
 			sourceTree = "<group>";
@@ -202,7 +219,7 @@
 				TargetAttributes = {
 					95882A641C069F43002BD9DE = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = AW4GQ9KBGT;
+						DevelopmentTeam = 9JGD3EP6R4;
 					};
 					95882A781C069F43002BD9DE = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -239,9 +256,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95882A9B1C06EE79002BD9DE /* profile.gif in Resources */,
+				B131731D1C0BCB6300C56DB4 /* images in Resources */,
 				95882A731C069F43002BD9DE /* LaunchScreen.storyboard in Resources */,
 				95882A701C069F43002BD9DE /* Assets.xcassets in Resources */,
+				B13173311C0BD2DD00C56DB4 /* fonts in Resources */,
+				B131731F1C0BCBAE00C56DB4 /* profile.gif in Resources */,
 				95882A6E1C069F43002BD9DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,9 +287,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				95882A691C069F43002BD9DE /* AppDelegate.swift in Sources */,
-				95882A9D1C0844DE002BD9DE /* BrowserViewController.swift in Sources */,
-				95882A991C06AD14002BD9DE /* ProfileViewController.swift in Sources */,
+				B131732C1C0BD07A00C56DB4 /* ProfileVC.m in Sources */,
+				B13173341C0BDE1800C56DB4 /* User.m in Sources */,
 				95882A971C06A56A002BD9DE /* ServiceManager.swift in Sources */,
+				B131732F1C0BD09300C56DB4 /* BrowserVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,14 +432,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SideHustle/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = maj.SideHustle;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.side-hustle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SideHustle/SideHustle-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -427,14 +450,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SideHustle/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = maj.SideHustle;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.side-hustle";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SideHustle/SideHustle-Bridging-Header.h";
 			};
 			name = Release;
 		};
