@@ -8,9 +8,10 @@
 
 #import "ProfileVC.h"
 
-@interface ProfileVC ()
+@interface ProfileVC () <UIScrollViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UIImageView *profileImage;
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end
 
@@ -19,11 +20,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    
+    
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     
-    self.profileImage.image = [UIImage imageNamed:self.currentProfileUser.profileName];
+    UIImage *newImage = [UIImage imageNamed:self.currentProfileUser.profileName];
+    self.profileImage.image = newImage;
+    
+    float scaleFactor = self.profileImage.frame.size.width / newImage.size.width;
+    self.profileImage.frame = CGRectMake(0, 0, self.profileImage.frame.size.width, newImage.size.height * scaleFactor);
+    self.scrollView.contentSize = self.profileImage.frame.size;
 }
 
 - (void)didReceiveMemoryWarning {

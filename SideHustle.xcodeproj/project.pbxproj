@@ -20,6 +20,7 @@
 		B131732F1C0BD09300C56DB4 /* BrowserVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B131732E1C0BD09300C56DB4 /* BrowserVC.m */; };
 		B13173311C0BD2DD00C56DB4 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = B13173301C0BD2DD00C56DB4 /* fonts */; };
 		B13173341C0BDE1800C56DB4 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B13173331C0BDE1800C56DB4 /* User.m */; };
+		B13173371C0CAE6800C56DB4 /* NavController.m in Sources */ = {isa = PBXBuildFile; fileRef = B13173361C0CAE6800C56DB4 /* NavController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		B13173301C0BD2DD00C56DB4 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		B13173321C0BDE1800C56DB4 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		B13173331C0BDE1800C56DB4 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		B13173351C0CAE6800C56DB4 /* NavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavController.h; sourceTree = "<group>"; };
+		B13173361C0CAE6800C56DB4 /* NavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				95882A681C069F43002BD9DE /* AppDelegate.swift */,
 				95882A961C06A56A002BD9DE /* ServiceManager.swift */,
 				95882A6C1C069F43002BD9DE /* Main.storyboard */,
+				B13173351C0CAE6800C56DB4 /* NavController.h */,
+				B13173361C0CAE6800C56DB4 /* NavController.m */,
 				B13173321C0BDE1800C56DB4 /* User.h */,
 				B13173331C0BDE1800C56DB4 /* User.m */,
 				95882A6F1C069F43002BD9DE /* Assets.xcassets */,
@@ -289,6 +294,7 @@
 				95882A691C069F43002BD9DE /* AppDelegate.swift in Sources */,
 				B131732C1C0BD07A00C56DB4 /* ProfileVC.m in Sources */,
 				B13173341C0BDE1800C56DB4 /* User.m in Sources */,
+				B13173371C0CAE6800C56DB4 /* NavController.m in Sources */,
 				95882A971C06A56A002BD9DE /* ServiceManager.swift in Sources */,
 				B131732F1C0BD09300C56DB4 /* BrowserVC.m in Sources */,
 			);

@@ -18,4 +18,5 @@
 @property NSString *daysAgo;
 @property NSString *locationSeen;
 
+
 @end
