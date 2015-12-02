@@ -102,6 +102,7 @@
     self.connectedUser.imageName = @"images/anna_photo.png";
     self.connectedUser.profileName = @"images/anna_profile.png";
     self.connectedUser.blurb = @"Aspiring fashion designer";
+    self.connectedUser.cellImageName = @"images/Anna_cell.png";
     self.connectedUser.daysAgo = @"2 days ago";
     self.connectedUser.locationSeen = @"Mission Street";
     
@@ -158,16 +159,18 @@
 
 - (void)connectedDevicesChanged:(ServiceManager *)manager connectedDevices:(NSArray<NSString *> *)connectedDevices {
     
+    
+    
     if (self.didConnect == NO) {
         
-        self.discoveryButton.enabled = YES;
-        [self.discoveryButton setImage:[UIImage imageNamed:self.connectedUser.imageName] forState:UIControlStateNormal];
-        [self.historyArray insertObject:self.connectedUser atIndex:0];
-        [self.historyTableView reloadData];
-        self.didConnect = YES;
+        dispatch_async(dispatch_get_main_queue(), ^{
+            self.discoveryButton.enabled = YES;
+            [self.discoveryButton setImage:[UIImage imageNamed:@"images/replace_button.png"] forState:UIControlStateNormal];
+            [self.historyArray insertObject:self.connectedUser atIndex:0];
+            [self.historyTableView reloadData];
+            self.didConnect = YES;
+        });
     }
-    
-
 }
 
 - (void)profileChanged:(ServiceManager *)manager contentString:(NSString *)contentString {
