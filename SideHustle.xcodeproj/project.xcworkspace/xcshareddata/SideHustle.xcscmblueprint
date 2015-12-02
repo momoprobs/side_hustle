@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3C16207959CDFBCA7C8434E6C7B4D7C2B6742460",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3C16207959CDFBCA7C8434E6C7B4D7C2B6742460" : 0,
+    "F77285FAC32B85E6430F9B520D565E5F648A5201" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7B1441F9-24B1-41CA-9663-4F1913705181",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3C16207959CDFBCA7C8434E6C7B4D7C2B6742460" : "SideHustle\/",
+    "F77285FAC32B85E6430F9B520D565E5F648A5201" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SideHustle",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SideHustle.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/momoprobs\/side_hustle.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3C16207959CDFBCA7C8434E6C7B4D7C2B6742460"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/annayelizarova\/sideHustle.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F77285FAC32B85E6430F9B520D565E5F648A5201"
+    }
+  ]
+}
