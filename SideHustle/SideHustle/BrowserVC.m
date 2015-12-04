@@ -95,6 +95,7 @@
     self.currentUser.blurb = @"Write a blurb";
     self.currentUser.profileName = @"images/Group.png";
     self.currentUser.daysAgo = @"3 days ago";
+    self.currentUser.cellImageName = @"images/Jordan_cell.png";
     self.currentUser.locationSeen = @"Mission Street";
     
     self.connectedUser = [[User alloc] init];
@@ -105,6 +106,14 @@
     self.connectedUser.cellImageName = @"images/Anna_cell.png";
     self.connectedUser.daysAgo = @"2 days ago";
     self.connectedUser.locationSeen = @"Mission Street";
+    
+    
+    //TURN THIS ON FOR OTHER USER
+    /*
+    User *temp = self.currentUser;
+    self.currentUser = self.connectedUser;
+    self.connectedUser = temp;
+    */
     
     //Set up own profile
     self.nameLabel.text = self.currentUser.name;

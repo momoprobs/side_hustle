@@ -23,7 +23,6 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     
-    self.navigationBar.backgroundColor = [UIColor blackColor];
 }
 
 - (void)didReceiveMemoryWarning {
